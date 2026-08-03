@@ -15,5 +15,5 @@ print(bool(c), type(c)) #true
 # that p/q form always results in float in python 
 a = 12
 b = 3
-print(a/b)
+print(a/b) #--> implicit conversion
 print(type(a/b))
