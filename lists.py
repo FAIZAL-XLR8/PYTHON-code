@@ -20,3 +20,24 @@ not_present = bool('apple' not in lst)
 print(not_present)
 print(is_present)
 print(lst[-3 : -1])
+
+
+#insertion at a specific index
+lst.insert(1, 'faizal')
+print(lst)
+# insert at lst position
+lst.append("Ali")
+print(lst)
+#pop at specific idx --> if no idx pops from behind
+lst.pop(2)
+print(lst)
+#remove the specific value from this list if multiple exists pop the first occurence
+lst.remove('archis')
+
+#to append one entire list into another use --> list1.extend(list2) -> o/p = [lis1_elements, list2_elements]
+# lst.extend(listings) 
+print(lst)
+
+# sorting in descending order only if elements are of same type
+lst.sort(reverse = True)
+
