@@ -11,3 +11,5 @@ print(lst3)
 #slicicing method 
 lst4 = lst3[:]
 print(lst4)
+listed = list((range(12, 100, 2)))
+print(listed)
